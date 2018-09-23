@@ -19,8 +19,8 @@ def display_balance
 end 
 
 def valid 
+  if @balance.to_i > 
   
-  
-end
+end 
 
 end
