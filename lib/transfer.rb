@@ -3,7 +3,7 @@ class Transfer
 attr_accessor :sender
 
 def initialize(sender)
-  @balance = 1000
+  @sender = sender
   @status = open
 end
 
