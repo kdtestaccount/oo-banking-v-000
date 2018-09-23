@@ -12,6 +12,7 @@ end
 
 def valid
   sender = BankAccount.new(@name)
+  sender.valid?
   
 end 
 
