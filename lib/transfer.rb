@@ -1,10 +1,10 @@
 class Transfer
 
-attr_accessor :balance
+attr_accessor :balance, :status
 
 def initialize(name)
   @balance = 1000
-  @status
+  @status = open
 end
 
 end
