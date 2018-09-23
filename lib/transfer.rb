@@ -4,7 +4,7 @@ attr_accessor :sender
 
 def initialize(sender)
   @sender = sender
-  @status = open
+  
 end
 
 
