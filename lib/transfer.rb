@@ -11,7 +11,7 @@ end
 
 
 def valid
-  sender = BankAccount.new
+  sender = BankAccount.new(@name)
   
 end 
 
