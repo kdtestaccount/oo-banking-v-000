@@ -19,7 +19,7 @@ def display_balance
 end 
 
 def valid 
-  if @balance.to_i > 
+  if @balance.to_i > 0 && @status == "open"
   
 end 
 
