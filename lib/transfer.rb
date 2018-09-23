@@ -15,7 +15,6 @@ def valid
   sender.valid?
   receiver = BankAccount.new(@receiver)
   receiver.valid?
-  
 end 
 
 
