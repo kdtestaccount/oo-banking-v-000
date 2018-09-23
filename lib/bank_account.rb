@@ -15,7 +15,7 @@ def deposit(amount)
 end 
 
 def display_balance
-  
-end
+  @balance
+end 
 
 end
