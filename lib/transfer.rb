@@ -10,8 +10,8 @@ def initialize(sender, receiver)
 end
 
 
-def deposit
-  @balance = @balance + amount
+def valid
+  
   
 end 
 
