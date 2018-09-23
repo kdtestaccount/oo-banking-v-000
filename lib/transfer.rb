@@ -11,8 +11,10 @@ end
 
 
 def valid
-  sender = BankAccount.new(@name)
+  sender = BankAccount.new(@sender)
   sender.valid?
+  receiver = BankAccount.new(@receiver)
+  receiver.valid?
   
 end 
 
