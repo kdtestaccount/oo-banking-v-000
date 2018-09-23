@@ -5,7 +5,7 @@ attr_accessor :sender, :receiver, :status
 def initialize(sender, receiver, amount)
   @sender = sender
   @receiver = receiver
-  @status = pending
+  @status = "pending"
   @amount = amount
 end
 
