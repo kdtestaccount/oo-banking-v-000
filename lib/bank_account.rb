@@ -20,7 +20,8 @@ end
 
 def valid 
   if @balance.to_i > 0 && @status == "open"
-  
+    true
+  end
 end 
 
 end
