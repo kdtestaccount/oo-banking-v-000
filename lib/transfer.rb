@@ -1,8 +1,8 @@
 class Transfer
 
-attr_accessor :balance, :status
+attr_accessor :sender
 
-def initialize(name)
+def initialize(sender)
   @balance = 1000
   @status = open
 end
