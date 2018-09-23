@@ -13,7 +13,7 @@ end
 def valid?
   sender = BankAccount.new(@sender)
   receiver = BankAccount.new(@receiver)
-    if sender.valid? && receiver.valid?
+    if sender.valid? == true && receiver.valid? == true
       true 
     end 
 end 
