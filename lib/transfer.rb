@@ -2,7 +2,7 @@ class Transfer
 
 attr_accessor :sender
 
-def initialize(sender)
+def initialize(sender, receiver)
   @sender = sender
   
 end
