@@ -19,7 +19,7 @@ def display_balance
 end 
 
 def valid?
-  if @balance > 0 && @status == "open"
+  if @balance > 0 and @status == "open"
     true
   end
 end 
