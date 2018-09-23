@@ -10,11 +10,11 @@ def initialize(sender, receiver, amount)
 end
 
 
-def valid
+def valid?
   sender = BankAccount.new(@sender)
-  sender.valid
   receiver = BankAccount.new(@receiver)
-  receiver.valid
+    if sender.valid? and receiver.valid?
+      true
 end 
 
 
