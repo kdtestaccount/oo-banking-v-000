@@ -14,6 +14,7 @@ def valid?
   sender = BankAccount.new(@sender)
   receiver = BankAccount.new(@receiver)
   sendervalidity = sender.valid?
+  receivervalidity = receiver.valid?
     if sendervalidity == true && receiver.valid? == true
       true 
     else 
