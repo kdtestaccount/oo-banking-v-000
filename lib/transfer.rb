@@ -18,7 +18,9 @@ def valid?
     end 
 end 
 
-
+def execute_transaction
+  
+end
 
 
 end
